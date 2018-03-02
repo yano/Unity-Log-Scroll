@@ -11,6 +11,9 @@ Unity2017.3.0f3
 # Requirements
 advanced inspector https://assetstore.unity.com/publishers/6385
 
+# Reference Video
+https://www.youtube.com/watch?v=BMPI05ovIGI
+
 # LISENCE
 MIT
 
