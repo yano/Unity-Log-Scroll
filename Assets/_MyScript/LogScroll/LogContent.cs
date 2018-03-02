@@ -7,6 +7,7 @@ public class LogContent : MonoBehaviour
 {
 	[SerializeField] private Text _text;
 	[SerializeField] private float _duration = 3.0f;
+	[SerializeField] private float _fadeoutTime = 1.0f;
 	
 	private void Awake()
 	{
@@ -24,7 +25,7 @@ public class LogContent : MonoBehaviour
 	{		
 		yield return new WaitForSeconds(_duration);		
 		_text.CrossFadeAlpha(0.0f, 1.0f, true);
-		yield return new WaitForSeconds(1.0f);
+		yield return new WaitForSeconds(_fadeoutTime);
 		Destroy(gameObject);		
 	}
 }

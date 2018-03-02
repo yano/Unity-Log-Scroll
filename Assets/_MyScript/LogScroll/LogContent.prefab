@@ -42,6 +42,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _text: {fileID: 114963595508509400}
   _duration: 3
+  _fadeoutTime: 1
 --- !u!114 &114963595508509400
 MonoBehaviour:
   m_ObjectHideFlags: 1
